@@ -6,6 +6,7 @@ import rootReducer from "./root-reducer";
 
 const middlewares = [logger];
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const store: any = createStore(
  rootReducer,
  applyMiddleware(...middlewares, thunk)
