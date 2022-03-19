@@ -24,7 +24,7 @@
   "quotes": ["error", "double"],
   "semi": ["error", "always"],
   "no-redeclare": "off",
-  "@typescript-eslint/no-redeclare": ["error"],
-  "@typescript-eslint/no-explicit-any": ["error", {"ignoreRestArgs": false}]
+  "@typescript-eslint/no-redeclare": "off",
+  "@typescript-eslint/no-explicit-any": "off"
  }
 }
